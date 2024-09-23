@@ -1,0 +1,16 @@
+list: user.system_paths
+hostname: taehykim-macbookpro.roam.internal
+-
+user: /Users/taehykim
+desktop: /Users/taehykim/Desktop
+desk: /Users/taehykim/Desktop
+documents: /Users/taehykim/Documents
+docks: /Users/taehykim/Documents
+downloads: /Users/taehykim/Downloads
+music: /Users/taehykim/Music
+pictures: /Users/taehykim/Pictures
+videos: /Users/taehykim/Videos
+talon home: /Users/taehykim/.talon
+talon recordings: /Users/taehykim/.talon/recordings
+talon user: /Users/taehykim/.talon/user
+home: /Users/taehykim
