@@ -11,3 +11,14 @@ interface $1 {
     $0
 }
 ---
+
+name: componentDeclaration
+phrase: component
+insertionScope: statement
+
+$1.insertionFormatter: PUBLIC_CAMEL_CASE
+-
+const $1: React.FC<$1> = ({ $2 }) => {
+    $0
+};
+---

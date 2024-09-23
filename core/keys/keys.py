@@ -128,9 +128,8 @@ punctuation_words = {
     # Workaround for issue with conformer b-series; see #946
     "coma": ",",
     "period": ".",
-    "full stop": ".",
     "semicolon": ";",
-    "colon": ":",
+    "stack": ":",
     "forward slash": "/",
     "question mark": "?",
     "exclamation mark": "!",
@@ -138,17 +137,7 @@ punctuation_words = {
     "asterisk": "*",
     "hash sign": "#",
     "number sign": "#",
-    "percent sign": "%",
-    "at sign": "@",
-    "and sign": "&",
-    "ampersand": "&",
-    # Currencies
-    "dollar sign": "$",
-    "pound sign": "£",
-    "hyphen": "-",
-    "L paren": "(",
     "left paren": "(",
-    "R paren": ")",
     "right paren": ")",
 }
 symbol_key_words = {
@@ -157,16 +146,7 @@ symbol_key_words = {
     "quote": "'",
     "question": "?",
     "apostrophe": "'",
-    "L square": "[",
-    "left square": "[",
-    "brack": "[",
-    "bracket": "[",
     "left bracket": "[",
-    "square": "[",
-    "R square": "]",
-    "right square": "]",
-    "r brack": "]",
-    "r bracket": "]",
     "right bracket": "]",
     "slash": "/",
     "backslash": "\\",
@@ -179,20 +159,10 @@ symbol_key_words = {
     "bang": "!",
     "down score": "_",
     "underscore": "_",
-    "paren": "(",
-    "brace": "{",
     "left brace": "{",
-    "curly bracket": "{",
-    "left curly bracket": "{",
-    "r brace": "}",
     "right brace": "}",
-    "r curly bracket": "}",
-    "right curly bracket": "}",
-    "angle": "<",
     "left angle": "<",
     "less than": "<",
-    "rangle": ">",
-    "R angle": ">",
     "right angle": ">",
     "greater than": ">",
     "star": "*",
@@ -201,7 +171,6 @@ symbol_key_words = {
     "caret": "^",
     "amper": "&",
     "pipe": "|",
-    "dub quote": '"',
     "double quote": '"',
     # Currencies
     "dollar": "$",
@@ -221,24 +190,16 @@ ctx.lists["self.arrow_key"] = {
 }
 
 simple_keys = [
-    "end",
     "enter",
     "escape",
-    "home",
-    "insert",
-    "pagedown",
-    "pageup",
     "space",
     "tab",
 ]
 
 alternate_keys = {
-    "wipe": "backspace",
     "delete": "backspace",
     #'junk': 'backspace',
     "forward delete": "delete",
-    "page up": "pageup",
-    "page down": "pagedown",
 }
 # mac apparently doesn't have the menu key.
 if app.platform in ("windows", "linux"):
