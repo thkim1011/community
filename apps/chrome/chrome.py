@@ -20,10 +20,6 @@ app.exe: chrome
 app.exe: chromium-browser
 app.exe: chromium
 """
-mod.apps.chrome = """
-os: linux
-and app.name: Google-chrome
-"""
 
 ctx.matches = r"""
 app: chrome

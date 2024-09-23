@@ -1,0 +1,16 @@
+list: user.system_paths
+hostname: ded
+-
+user: /home/tkim
+desktop: /home/tkim/Desktop
+desk: /home/tkim/Desktop
+documents: /home/tkim/Documents
+docks: /home/tkim/Documents
+downloads: /home/tkim/Downloads
+music: /home/tkim/Music
+pictures: /home/tkim/Pictures
+videos: /home/tkim/Videos
+talon home: /home/tkim/.talon
+talon recordings: /home/tkim/.talon/recordings
+talon user: /home/tkim/.talon/user
+home: /home/tkim
